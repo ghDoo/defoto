@@ -1,0 +1,46 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.title {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  color: #000000;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(../images/facebook.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-title {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  color: #285396;
+  text-decoration: underline;
+  cursor: pointer;
+}
